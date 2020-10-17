@@ -2,6 +2,9 @@ class Github{
     constructor(){
         
         this.token="";
+        // get your own token search this on satckoverflow 
+        //https://github.com/settings/tokens
+        // generate new token and then use and don't share this token to anyone
         this.reposcnt=5;
         this.repossort='created: asc';
 
